@@ -1,0 +1,170 @@
+@import url('https://fonts-online.ru/fonts/roboto');
+nav {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav::before {
+    content: '';
+    display: block;
+    height: 56px;
+    width: 100%;
+    background: linear-gradient(45deg, #00008B, #800080, #4B0082);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 56px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: #FFFFFF;
+    display: block;
+    height: 56px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 56px;
+}
+
+ul li a:hover {
+    background: #000080;
+}
+
+.logo {
+    cursor: pointer;
+    width: 70px;
+    height: 53px;
+    margin-top: 2px;
+    margin-left: 23px;
+    padding: 0;
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    text-transform: uppercase;
+    display: block;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+.img {
+    width: 100%;
+    min-height: 118.383px;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.port {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffc813;
+    padding: 18px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+    margin-left: 492px;
+    background-color: #ffffff;
+    border: 2px solid #ffc813;
+    box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.25), -3px -3px 7px 0 rgba(121, 117, 117, 0.3);
+}
+
+.port:hover {
+    background-color: rgb(248, 168, 20);
+    color: rgb(95, 97, 97);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Medium", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+h2 {
+    margin-top: 15px;
+}
+
+#kont {
+    text-align: center;
+}
+
+pre {
+    text-align: center;
+    color: rgb(44, 38, 38);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.zvon {
+    margin-top: 10px;
+    text-align: center;
+    width: 80%;
+    margin-left: 110px;
+}
+
+a {
+    color: rgb(255, 196, 0);
+}
+
+.all {
+    margin-top: 30px;
+    margin-right: 60px;
+}
