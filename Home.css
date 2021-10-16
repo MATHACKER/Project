@@ -1,7 +1,7 @@
 @import url('https://www.fonts-online.ru/font/Inter-Medium');
 body {
-    --background-color: #ffffff;
-    --text-color: #000000;
+    background-color: #ffffff;
+    text-color: #000000;
 }
 nav {
     width: 960px;
